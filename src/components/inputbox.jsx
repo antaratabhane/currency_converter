@@ -7,7 +7,8 @@ function Inputbox({
     onCurrencyChange,
     selectedCurrency = "usd",
     className = "",
-    currencyOptions = []
+    currencyOptions = [],
+    amountDisabled = false
 }) {
   const id = label
   return (
