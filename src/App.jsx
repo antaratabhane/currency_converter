@@ -16,6 +16,7 @@ function App() {
     setFrom(to)
     setConvertedAmount(amount)
     setAmount(convertedAmount)
+    setTo(from)
   }
 
   const convert = () => {
